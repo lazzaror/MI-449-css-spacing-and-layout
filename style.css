@@ -6,9 +6,10 @@ body {
 .profile-container {
   text-align: center;
   width: 50%;
-  background-color: #0e1909;
+  background-color: #baccda;
   margin: 0 auto;
-  padding: 2% 0 5% 0;
+  padding: 2% 0;
+  border-radius: 5%;
 }
 
 .profile-img {
@@ -25,4 +26,20 @@ h1 {
 .profile-icon {
   width: 50px;
   text-align: left;
+  display: inline-block;
+}
+
+#content-container {
+  display: flex;
+  width: 100%;
+}
+
+#col1, #col2, #col3 {
+  background-color: white;
+  flex: flex-shrink 33%;
+}
+
+h3 {
+  margin: 0;
+  display: block;
 }
