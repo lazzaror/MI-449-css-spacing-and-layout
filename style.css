@@ -1,0 +1,28 @@
+body {
+  background-image: url("img/clouds.jpg");
+  background-size: cover;
+}
+
+.profile-container {
+  text-align: center;
+  width: 50%;
+  background-color: #0e1909;
+  margin: 0 auto;
+  padding: 2% 0 5% 0;
+}
+
+.profile-img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.profile-icon {
+  width: 50px;
+  text-align: left;
+}
