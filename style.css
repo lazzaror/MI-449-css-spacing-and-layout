@@ -13,13 +13,14 @@ body {
 }
 
 .profile-img {
-  width: 200px;
+  width: 30%;
   border-radius: 50%;
 }
 
 h1 {
   margin: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2em;
   color: white;
 }
 
@@ -67,4 +68,29 @@ img {
 
 .portfolio {
   display: block;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .profile-img {
+    width: 50%;
+  }
+
+  .profile-container {
+    width: 80%;
+  }
+
+  #content-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #col1, #col2, #col3 {
+    background-color: white;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 1% 2%;
+    flex-flow: flex-grow 80%;
+  }
+
 }
