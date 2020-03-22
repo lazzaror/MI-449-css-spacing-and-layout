@@ -33,7 +33,6 @@ h1 {
   display: flex;
   flex-wrap: no-wrap;
   flex-flow: flex-grow 33%;
-  background-color: red;
   width: 100%;
 }
 
@@ -41,9 +40,31 @@ h1 {
   background-color: white;
   display: inline-block;
   width: 100%;
+  margin: 1% 1%;
+  padding: 1% 2%;
 }
 
 h3 {
   margin: 0;
+  color: #3f65a6;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: block;
+}
+
+.header {
+  font-weight: bolder;
+}
+
+.subheader {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+img {
+  width: 90%;
+  border-radius: 20%;
+}
+
+.portfolio {
   display: block;
 }
