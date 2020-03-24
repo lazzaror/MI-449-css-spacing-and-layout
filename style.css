@@ -61,6 +61,10 @@ h3 {
   font-style: italic;
 }
 
+.no-style {
+  list-style-type: none;
+}
+
 img {
   width: 90%;
   border-radius: 20%;
